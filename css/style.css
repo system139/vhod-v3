@@ -1,0 +1,58 @@
+body{
+    background-color: #454b52;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img{
+    margin-top: -17%;
+}
+
+.close{
+    margin-left: 150px;
+    margin-top: -11%;
+}
+
+input:invalid {
+    border: 1px solid #4ea64f;
+    border-radius: 5px;
+    width: 250px;
+    height:35px;
+}
+input:valid {
+    border: 1px solid #c3ced5;
+
+}
+
+.button{
+    width:250px;
+    height:35px;
+    border-radius: 5px;
+    background-color: #4ea64f;
+    color: white;
+}
+
+.box.my-flex-container{
+    max-width: 500px;
+    max-height: 600px;
+    width: 370px;
+    height: 320px;
+    background-color: #f2f3f7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    border-radius:0px 0px 5px 5px;
+    background-color: #f2f3f7;
+    padding:1px;
+    border-top:1px solid #C2C2C2;
+}
+
+a{
+    color: #4ea64f;
+    text-decoration-line: none;
+}
